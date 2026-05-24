@@ -1,2 +1,11 @@
+[project]
+name = "autoshopify"
+version = "0.1.0"
+description = "Flask app deployed on Vercel"
+requires-python = ">=3.10"
+dependencies = [
+    "flask"
+]
+
 [tool.vercel]
 entrypoint = "autosh:app"
